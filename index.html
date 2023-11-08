@@ -9,7 +9,9 @@
 
 <body>
     <div id="'header">
-            <h1 class= 'green'>Tickethack</h1>
+        <div id="tickethack">
+                <h1 class= 'green'>Tickethack</h1>
+        </div>
             <div id="nav">
                 <p id="cart">Cart</p>
                 <p id="bookings">Bookings</p>
@@ -20,23 +22,24 @@
 
         <div id="title">
             <h2>Explore the world effortlessly by train</h2>
-            <h3>Compare, book and enjoy cheap pricesfor train tickets : your journey starts on Tickethack. </h3>
+            <h3>Compare, book and enjoy cheap prices for train tickets : your journey starts on Tickethack. </h3>
         </div>
 
         <div id="content-container">
 
             <div id="'content-left">
-                <input id="search-departure" type="text" placeholder="Departure"/>
-                <input id="search-arrival" type="text" placeholder="Arrival"/>
-                <input id="date-departure" type="date"/>
-                <button type="button" id="btn-srch">Search</button>
+                 <div><input id="search-departure" type="text" placeholder="Departure"/></div>
+                 <div><input id="search-arrival" type="text" placeholder="Arrival"/></div>
+                 <div><input id="date-departure" type="date"/></div>
+                 <div><button type="button" id="btn-srch">Search</button></div>
+                                     
             </div>
     
             <div id="content-right">
                 <div id="trips">
                     <div id="trip-container">
-                        <p id="result"></p>
-                        <button id="book">Book</button>
+                        <div><p id="result"></p></div>
+                        <div><button id="book">Book</button></div>
                     </div>
                  </div>
             </div>
